@@ -1,0 +1,36 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "My personal boilerplate for react-projects",
+  "main": "server/server.js",
+  "author": "ronmapue",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack",
+    "serve": "live-server public/",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "express": "^4.16.3",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}
