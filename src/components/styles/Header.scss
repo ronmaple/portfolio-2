@@ -1,0 +1,71 @@
+$darkerblue: hsl(230, 100%, 65%);
+$evenDarkerBlue: hsl(230, 100%, 60%);
+$lightblue: hsl(230, 100%, 70%);
+$genericShadow: 0 0.3125rem 1.1rem 0 rgba(0,0,0,0.2);
+
+.nav {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 2;
+    left: 0;
+    background-color: $lightblue;
+    border-bottom: solid 0.05em $lightblue;
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+.brand {
+    // position: relative;
+    float: left;
+    color: white;
+    line-height: 60px;
+    margin-left: 10px;
+    
+    span {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+}
+
+.menu {
+    position: relative;
+    float: right;
+    font-weight: 500;
+    color: white;
+    margin-right: 10px;
+    
+    li {
+        display: block;
+        float: left;
+        padding: 10px 12.5px;
+        font-size: 1.3em;
+    }
+
+    li:hover {
+        background-color: $darkerblue;
+    }
+}
+
+.scroll {
+    background-color: white;
+    height: 70px;
+
+    li, .brand {
+        color: $darkerblue;
+        font-weight: 500;
+    }
+    li:hover {
+        background-color: $lightblue;
+        color: white;
+    }
+    .brand {
+        // margin-left: 20px;
+    }
+
+
+}

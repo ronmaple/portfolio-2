@@ -1,0 +1,14 @@
+$shadow: 0 0.3125rem 1.1rem 0 rgba(0,0,0,0.2);
+
+.titleCard--main {
+    background-color: white;
+    box-shadow: $shadow;    
+    // margin: 0 auto;
+
+    padding: 10px;
+    height: 50px;
+    width: 75%;
+
+    position: absolute;
+
+}

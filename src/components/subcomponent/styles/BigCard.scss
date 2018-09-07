@@ -1,0 +1,50 @@
+$genericShadow: 0 0.6250rem 2.0rem 0 rgba(0,0,0,0.2);
+.card {
+    margin: 50px auto;
+    width: 90%;
+    // position: absolute;
+
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+
+    // height: 400px;
+    // background-color: white;
+}
+
+.card-entry {
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    margin: 50px;
+    padding: 40px;
+    transform: rotate(-1deg);
+    position: relative;
+    float: left;
+    box-shadow: $genericShadow;
+
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+
+.card-image {
+
+    img {
+        transform: rotate(12deg);
+        position: relative;
+        box-shadow: $genericShadow;
+        height: 400px;
+        width: auto;
+        float: right;
+        top: 50px;
+        right: 120px;
+        // float: right;
+        
+        // margin-left: 400px;
+    }
+
+}

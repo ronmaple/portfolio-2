@@ -1,0 +1,45 @@
+$lightblue: hsl(230, 100%, 70%);
+$shadow: 0 0.3125rem 1.1rem 0 rgba(0,0,0,0.2);
+
+.portfolio {
+    height: 1000px;
+    width: 100%;
+    background-color: $lightblue;
+    top: 0px;
+    position: relative;
+    display: block;
+}
+
+// .portfolio--title {
+//     position: relative;
+// }
+
+// .portfolio--skills-title {
+//     width: 80%;
+//     height: 100px;
+//     background-color: white;
+//     border: solid 2px red;
+//     margin: 50px auto;
+// }
+
+.portfolio--title {
+    height: 100px;
+    width: 60%;
+    margin: 1.0em auto;
+    background-color: white;
+    box-shadow: $shadow;
+    text-align: center;
+
+    h3 {
+        margin: 1.5em auto;
+        vertical-align: middle;
+        line-height: 100px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+// .portfolio--sections {
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+// }

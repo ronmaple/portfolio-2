@@ -1,0 +1,42 @@
+$genericShadow: 0 0.6250rem 2.0rem 0 rgba(0,0,0,0.2);
+
+.flexChild {
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    margin: 1.5em;
+    box-shadow: $genericShadow;
+    transition: border 0.5s;
+}
+
+.flexChild:hover {
+    border: solid 5px hsl(0, 0%, 80%);
+}
+
+.flexChild--image {
+    img {
+        height: 60%;
+        width: 60%;
+
+        display: block;
+        margin: 0.9em auto;
+    }
+}
+
+.flexChild--content {
+
+
+    text-align: center;
+
+    h1 {
+        font-size: 1.0em;
+    }
+
+    p {
+        font-size: 1.0em;
+    }
+
+    a {
+        font-size: 1.0em;
+    }
+}

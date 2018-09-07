@@ -1,0 +1,29 @@
+$genericShadow: 0 0.3125rem 1.1rem 0 rgba(0,0,0,0.2);
+
+.footer--body {
+    width: 100%;
+    height: 100px;
+    box-shadow: $genericShadow;
+    background-color: white;
+    // border: solid 2px red;
+    // background-color: yellow;
+}
+
+.footer--about {
+    width: 50%;
+    float: left;
+
+    h1 {
+        margin-left: 2.0em;
+    }
+}
+
+.footer--links {
+    width: 50%;
+    float: right;
+    text-align: right;
+
+    h1 {
+        margin-right: 2.0em;
+    }
+}

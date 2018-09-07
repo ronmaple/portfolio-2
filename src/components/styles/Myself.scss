@@ -1,0 +1,38 @@
+$genericShadow: 0 0.3125rem 1.1rem 0 rgba(0,0,0,0.2);
+
+.main {
+    display: relative;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: $genericShadow;
+    z-index: 1;
+}
+
+.main--headline {
+    float: left;
+    width: 60%;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px 40px;
+    position: relative;
+    box-shadow: $genericShadow;
+
+}
+
+.main--displaypic {
+    float: right;
+    width: 30%;
+    height: 100%;
+    margin-top: 20px;
+
+    img {
+        width: 80%;
+        height: auto;
+        padding: 10px;
+        box-shadow: $genericShadow;
+    }
+}
